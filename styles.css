@@ -1,5 +1,5 @@
 :root{
-    --couleur-principale: #3498db;
+    --couleur-principale: #000000;
 }
 
 body {
@@ -8,6 +8,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: var(--couleur-principale);
+    color: white;
 }
 
 .Title {
@@ -17,4 +19,7 @@ body {
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
+}
+a {
+    color: white;
 }
